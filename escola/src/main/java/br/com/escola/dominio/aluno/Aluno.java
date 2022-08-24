@@ -33,4 +33,8 @@ public class Aluno {
     public String getEmail() {
         return email.getEndereco();
     }
+
+    public List<Telefone> getTelefones() {
+        return telefones;
+    }
 }
