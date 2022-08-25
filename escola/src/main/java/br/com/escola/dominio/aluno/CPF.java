@@ -9,7 +9,7 @@ public class CPF {
     @Getter
     private String numero;
     private static final String REGEX_CPF =
-            "/^\\d{3}\\.\\d{3}\\.\\d{3}\\-\\d{2}$/";
+            "\\d{3}\\.\\d{3}\\.\\d{3}\\-\\d{2}";
 
     public CPF(String numero){
         if(numero == null ||
